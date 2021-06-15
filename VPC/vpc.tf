@@ -4,6 +4,8 @@ resource "google_compute_network" "vpc" {
 	routing_mode = "REGIONAL"
 }
 
+# Subnets
+
 resource "google_compute_subnetwork" "public_subnet_1" {
 	name = "public-subnet1"
 	ip_cidr_range = var.vpc_config["subnet1_cidr"]
