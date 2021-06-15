@@ -32,7 +32,7 @@ resource "google_compute_instance_group_manager" "foobar" {
 	}
 	target_pools = [google_compute_target_pool.foobar.self_link]
 		base_instance_name = "foobar"
-	}
+}
 
 
 resource "google_compute_instance_template" "foobar" {
