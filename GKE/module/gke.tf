@@ -1,6 +1,6 @@
 module "app" {
     source = "../"
-    project = "xwibraqguembkefy"
+    project = "ENTERPROJECTNAME"
 	region = "us-central1"
 	zone = "us-central1-c"
 	cluster_name = "my-gke-cluster"
